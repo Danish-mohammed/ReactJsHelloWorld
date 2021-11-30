@@ -2,15 +2,63 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+/* .App-logo {
+  height: 20vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    /* animation: App-logo-spin infinite 20s linear; */
+    animation: App-logo-spin infinite 20s linear; 
   }
+}  */
+/* html {
+  font-size: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  background-color: blueviolet;
+} */
+
+body {
+  color: black;
+  width: 800px;
+  height: 800px;
+  margin: 0px auto;
+  background-color: snow;
+  /* padding: 0px 0px 20px 20px; */
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+
+div {
+  align-items: center;
+}
+
+img {
+  display: block;
+  width: 30%;
+  height: 10%;
+  margin: 0 auto;
+  border: 0px solid black;
+  border-radius: 50px;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0px;
+  color: blueviolet;
+  text-shadow: 3px 3px 1px black;
+}
+
+p, li {
+  font: 15px Arial, Helvetica, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  letter-spacing: 1px;
+  justify-content: center;
+  align-content: center;
 }
 
 .error-output{
@@ -19,7 +67,7 @@
   font-style: italic;
   color: red;
 }
-
+/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -42,4 +90,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
