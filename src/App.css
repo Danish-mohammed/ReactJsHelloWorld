@@ -13,6 +13,13 @@
   }
 }
 
+.error-output{
+  margin-left:10px;
+  font-size: 12px;
+  font-style: italic;
+  color: red;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
